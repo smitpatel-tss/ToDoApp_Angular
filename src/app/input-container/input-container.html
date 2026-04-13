@@ -1,0 +1,4 @@
+<div>
+    <input-box (taskGenerated)="addTask($event)"></input-box>
+    <component-displayer [heading]="'Pending Tasks'" [componentList]="getPendingTaskComponents()"></component-displayer>
+</div>

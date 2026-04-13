@@ -1,0 +1,11 @@
+<div>
+    <h1>{{heading}}</h1>
+    <ng-container *ngFor="let component of componentList">
+        <ng-container *ngComponentOutlet="
+            component.component;
+            inputs: component.inputs
+            ">
+            
+        </ng-container>
+    </ng-container>
+</div>
