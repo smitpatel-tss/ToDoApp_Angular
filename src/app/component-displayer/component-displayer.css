@@ -9,9 +9,19 @@
     overflow: auto;
     border-radius: 10px;
     padding: 10px;
+    animation: far 3s linear infinite;
 }
 
 .component-displayer{
     display:flex;
     flex-direction: column;
+}
+
+@keyframes far {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
 }
