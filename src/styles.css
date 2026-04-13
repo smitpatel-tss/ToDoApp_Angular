@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    animation: bodyanim 4s linear infinite;
 }
 
 .input-container .list-container{
@@ -43,4 +44,55 @@ body{
 .redbtn{
     background-color: red;
     color: white;
+}
+
+
+@keyframes bodyanim {
+  0% {
+    border-top-left-radius: 91%;
+    border-top-right-radius: 37%;
+    border-bottom-right-radius: 82%;
+    border-bottom-left-radius: 58%;
+    background-color: pink;
+  }
+
+  20% {
+    border-top-left-radius: 46%;
+    border-top-right-radius: 88%;
+    border-bottom-right-radius: 63%;
+    border-bottom-left-radius: 79%;
+    background-color: purple;
+  }
+
+  40% {
+    border-top-left-radius: 84%;
+    border-top-right-radius: 52%;
+    border-bottom-right-radius: 39%;
+    border-bottom-left-radius: 91%;
+    background-color: orange;
+  }
+
+  60% {
+    border-top-left-radius: 58%;
+    border-top-right-radius: 93%;
+    border-bottom-right-radius: 87%;
+    border-bottom-left-radius: 41%;
+    background-color: chocolate;
+  }
+
+  80% {
+    border-top-left-radius: 76%;
+    border-top-right-radius: 44%;
+    border-bottom-right-radius: 92%;
+    border-bottom-left-radius: 67%;
+    background-color: black;
+  }
+
+  100% {
+    border-top-left-radius: 39%;
+    border-top-right-radius: 85%;
+    border-bottom-right-radius: 55%;
+    border-bottom-left-radius: 90%;
+    background-color: cyan;
+  }
 }

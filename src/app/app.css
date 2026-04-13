@@ -1,0 +1,64 @@
+.blob{
+    height: 500px;
+    width: 50%;
+    background-color: cyan;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    border-radius: 50%;
+    animation: wobble 5s linear infinite;
+}
+
+
+
+@keyframes wobble {
+  0% {
+    border-top-left-radius: 91%;
+    border-top-right-radius: 37%;
+    border-bottom-right-radius: 82%;
+    border-bottom-left-radius: 58%;
+    background-color: cyan;
+  }
+
+  20% {
+    border-top-left-radius: 46%;
+    border-top-right-radius: 88%;
+    border-bottom-right-radius: 63%;
+    border-bottom-left-radius: 79%;
+    background-color: black;
+  }
+
+  40% {
+    border-top-left-radius: 84%;
+    border-top-right-radius: 52%;
+    border-bottom-right-radius: 39%;
+    border-bottom-left-radius: 91%;
+    background-color: chocolate;
+  }
+
+  60% {
+    border-top-left-radius: 58%;
+    border-top-right-radius: 93%;
+    border-bottom-right-radius: 87%;
+    border-bottom-left-radius: 41%;
+    background-color: orange;
+  }
+
+  80% {
+    border-top-left-radius: 76%;
+    border-top-right-radius: 44%;
+    border-bottom-right-radius: 92%;
+    border-bottom-left-radius: 67%;
+    background-color: purple;
+  }
+
+  100% {
+    border-top-left-radius: 39%;
+    border-top-right-radius: 85%;
+    border-bottom-right-radius: 55%;
+    border-bottom-left-radius: 90%;
+    background-color: pink;
+  }
+}

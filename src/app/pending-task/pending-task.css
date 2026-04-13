@@ -9,3 +9,16 @@
     scrollbar-width: none;
     margin-right: 10px;
 }
+
+.completebtn{   
+    transition: 1s;
+}
+
+.completebtn:hover{
+    /* transform:translate(-100px, 100px); */
+    /* transform: translate(100px, -100px); */
+    /* scale:4; */
+    /* rotate: 500deg; */
+    transform: rotateY(360deg);
+    background-color: red;
+}
