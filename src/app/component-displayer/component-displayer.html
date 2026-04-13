@@ -1,5 +1,6 @@
 <div>
     <h1>{{heading}}</h1>
+    <div class="list-container">
     <ng-container *ngFor="let component of componentList">
         <ng-container *ngComponentOutlet="
             component.component;
@@ -8,4 +9,5 @@
             
         </ng-container>
     </ng-container>
+    </div>
 </div>
