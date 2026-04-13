@@ -1,5 +1,17 @@
 .list-container{
-    /* width: 40px;
-    height: 30px;
-    border: 2px solid pink; */
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin: auto;
+    width: 80%;
+    height: 50vh;
+    overflow: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.component-displayer{
+    display:flex;
+    flex-direction: column;
 }

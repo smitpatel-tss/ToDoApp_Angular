@@ -1,0 +1,22 @@
+input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-right: 10px;
+    background-color: rgb(209, 200, 200);
+    font-size: 20px;
+    height: 35px;
+}
+
+.input-box{
+    width: 100%;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+}

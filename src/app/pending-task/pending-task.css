@@ -1,0 +1,11 @@
+.pending-task{
+    display: flex;
+}
+
+.content{
+    width: 100%;
+    text-align: left;
+    overflow: auto;
+    scrollbar-width: none;
+    margin-right: 10px;
+}
